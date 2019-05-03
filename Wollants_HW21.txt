@@ -1,0 +1,48 @@
+Project Name: Hands-On Exercises 6.4-6.7 (HW21)  
+Author: Paola Wollants 
+Date Last Modified: May 2, 2019
+GitHub User: PaolaMWollants
+
+1. Write the CSS for a class that is relatively positioned. This 
+class should appear 15 ­pixels in from the left. Configure the class
+to have a light green background.
+
+.class { position: relative;
+         position-left: 15px;
+         background-color: #90EE90;
+        }
+
+2. Write the CSS for an id with the following characteristics: fixed
+position, light gray background color, bold font weight, and 10 pixels 
+of padding.
+
+#id { position: fixed;
+      background-color: #D3D3D3;
+      font-weight: bold;
+      padding: 10px;
+    }
+
+3. Write the CSS to configure an image file named myimage.gif as the list
+marker in an unordered list.
+
+<head>
+<title>
+</title>
+<style type="text/css">
+ul.imglist li { list-style-image: url("myimage");
+}
+</style>
+</head>
+<body>
+<ul class="imglist">
+<li>item one</li>
+<li>item two</li>
+</ul>
+</body>
+</html>
+
+4. Write the CSS to configure an unordered list to display a square list 
+marker.
+
+ul { list-style-type: square;
+}
