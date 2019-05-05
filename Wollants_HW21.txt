@@ -31,6 +31,7 @@ marker in an unordered list.
 <style type="text/css">
 ul.imglist li { list-style-image: url("myimage");
 }
+	ul { list-style-image: url(myimage.gif); 
 </style>
 </head>
 <body>
